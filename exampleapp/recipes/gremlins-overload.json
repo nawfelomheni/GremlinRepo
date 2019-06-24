@@ -1,0 +1,14 @@
+{
+   "gremlins" : [
+       {
+           "scenario" : "overload_service",
+           "source" : "productpage",
+           "dest" : "reviews",
+           "headerpattern" : "testUser-timeout-*",
+           "delaytime" : "3s",
+           "errorcode" : 500,
+           "delayprobability" : 0.7,
+           "abortprobability" : 0.5
+       }
+   ]
+}
