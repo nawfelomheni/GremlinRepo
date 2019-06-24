@@ -1,0 +1,11 @@
+{
+   "gremlins" : [
+       {
+           "scenario" : "abort_responses",
+           "source" : "productpage",
+           "dest" : "reviews",
+           "headerpattern" : "testUser-timeout-*",
+           "abortprobability" : 1
+       }
+   ]
+}
